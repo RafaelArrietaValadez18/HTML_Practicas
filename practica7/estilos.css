@@ -1,0 +1,37 @@
+#statico{
+    position: static;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+#fijo{
+    position: fixed;
+    background-color: blueviolet;
+    right: 50px;
+    bottom: 50px;
+    height: 35px;
+    border-radius: 50px;
+}
+#absoluto{
+    position: absolute;
+    background-color: chocolate;
+    left: 50px;
+    bottom: 50px;
+    width: 150px;
+    height: 150px;
+
+}
+#grande{
+    background-color: black;
+    width: 300px;
+    height: 1500px;
+}
+#pejagoso{
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: gold;
+    top: 50px;
+    width: 100px;
+    height: 200px;
+    border: 1px solid;
+}
